@@ -1,0 +1,83 @@
+ * {
+    content: border-box;
+    margin: 0;
+    padding: 0;
+ }
+body {
+    background-color: #ffebcd;
+}
+ main {
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 25em;
+    width: 13vw;
+    height: 90vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+       
+ }
+
+ section {
+    width: 30em;
+    height: 70vh;
+    align-items: center;
+    margin-top: -10em;
+    background-color: aquamarine;
+ }
+ 
+ .ptx {
+    align-items: center;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+ }
+
+ div {
+    display: flex;
+    flex-direction: column;
+    padding: 0.9em;
+    margin-bottom: 0.5em;
+    font-size: 20px;
+ }
+
+ input {
+    width: 30em;
+    height: 3em;
+    font-size: 15px;
+ }
+
+ label{
+    margin-bottom: 0.5em;
+ }
+
+ header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 16em;
+    height: 20vh;
+    font-size: 30px;
+    
+ }
+
+ #result {
+    
+    background-color: rgb(225, 235, 229);
+    width: 4em;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 12.8em; */
+    margin-top: 0.1em;
+    text-align: center;
+    width: 40%;
+    height: 1.5em;
+}   
+
+ /* p {
+    border: 0.2em solid #002;
+} */
+
+button {
+    font-size: 20px;
+} 
